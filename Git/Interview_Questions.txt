@@ -1,0 +1,22 @@
+Git:
+
+1) How do you pass "message" when you commit your git code ?
+
+Ans) git commit -m "My Message"
+Note: We can also commit the changes without message also, but it will diffcult to find what changes have been made.
+
+2) If you were to make changes for a commit in a 30 days ago with respect to a machine type used ? How about you go about doing this changes?
+   Would you directly change it ?
+
+Ans) First you need to do clone the repo by running the command "git clone repo-url"
+	 Create a new branch from the cloned branch by running the command " git checkout -b testing"
+	 Check what is the motivation behind the changes commits history in GitHub UI git blame OR Run command git blame -l to check the commits history 
+	 Then Make the changes in the new branch and the commit and push. Create a Pull Request/Merge Request to Approve.
+	 
+3) What is the branch Protection in GitHub ?
+
+Ans) We need to use the concept called branch protection, You need to go to repo -> setting -> Branch -> Branch protection rules.
+
+	 Why we need to enable the Branch protection rules, because we have a master/main branch were our code is placed. 
+	 In the main code Developer/DevOps/ any can create a workbranch/Feature branch and make the changes and merge the changes without a proper review.
+	 This will cause main code distrub and needs lot of effort to make it work. If Branch protection rules enable, the changes in the working branch will be properly review and merged.
