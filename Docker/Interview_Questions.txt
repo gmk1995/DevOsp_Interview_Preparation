@@ -1,0 +1,23 @@
+	 1) How to check logs from my docker container and how to filter only last 200 lines from container logs ?
+	 
+	 Ans) docker container logs <container_name> to check All container logs
+		  docker container logs --tail 200 <container_name> 
+		  
+	 2) What happens to container logs if you restart the container? Will it be lost?
+	 
+	 Ans) Because container are stateless, you will lose logs if you delete your container. To Presistance your logs you can use Splunk, Cloud Trail.
+		  But, if the containers are stopped and started or restarted then we won't be losing any logs. 
+		  But when we run the docker logs commands we might not able to see the old logs depends upon how our application log rotates.
+		  If you restart the container it might craete the new file, with previous file still exits.
+		
+  
+	 3) You encounter a docker image with size 2.7GB. Will this be a cause concern? If yes how would you tackle this ?
+     
+     Ans) Bigger docker image would result in longer build time.
+	      Docker image download error or API rate limit issue.
+		  Application also become bulkier.
+		  
+		 Solution:
+		  Small image Base (Alpine)
+		  Multi-Stage Build feature when building docker image
+		  Remove package binaries after installing and don't install packages that isn't required.
