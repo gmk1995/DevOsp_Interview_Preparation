@@ -1,0 +1,25 @@
+Maven:
+============
+the use of Maven in DevOps is that it can handle a project's build, reports, and documentation from a vital piece of information. The parts that are managed by the Maven tool in DevOps are builds, documentation, SCMs, distribution, releases, mailing lists, reporting, and dependencies.
+
+What is Maven and why it is used:
+Maven is a powerful project management tool that is based on POM (project object model). It is used for project build, dependency, and documentation. It simplifies the build process like ANT. But it is too much more advanced than ANT.
+
+What is Maven and Jenkins?
+A maven is a build tool designed to manage dependencies and the software lifecycle. It is also designed to work with plugins that allow users to add other tasks to the standard compile, test, package, install, deploy tasks. While, Jenkins is designed for the purpose of implementing Continuous Integration.
+
+Is Docker and Maven same?
+Docker belongs to "Virtual Machine Platforms & Containers" category of the tech stack, while Apache Maven can be primarily classified under "Java Build Tools". Some of the features offered by Docker are: Integrated developer tools. open, portable images.
+
+What is the POM file?
+A Project Object Model or POM is the fundamental unit of work in Maven. It is an XML file that contains information about the project and configuration details used by Maven to build the project. It contains default values for most projects.
+
+What is the main advantage of Maven:
+Benefits of Maven:
+Simplifies the planning process of any specific project. It ensures consistency throughout the entire design process. Understanding the project is crucial. It provides exhaustive details regarding the work.
+
+Is Maven and selenium same?
+Selenium facilitates the testing.. Read More. However, Maven streamlines project management by effectively managing dependencies, automating the build process, and ensuring efficient project management. Selenium and Maven provide a robust framework for testing web applications while simplifying project management.
+
+What is Maven dependency?
+What Is a Maven Dependency. In the context of Maven, a dependency is simply a JAR file used by a Java application. Based on the POM file, Maven will download and add the JAR file to our Java path. Java will then be able to find and use the classes in the JAR file.
